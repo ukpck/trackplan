@@ -1,4 +1,4 @@
-package model;
+package trackplan.model;
 
 import java.util.HashSet;
 import java.util.Set;

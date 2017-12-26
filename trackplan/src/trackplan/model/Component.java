@@ -1,4 +1,4 @@
-package model;
+package trackplan.model;
 
 public abstract class Component implements IComponent {
 

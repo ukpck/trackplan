@@ -1,4 +1,4 @@
-package model;
+package trackplan.model;
 
 public interface IComponent {
 	

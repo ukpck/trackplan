@@ -1,10 +1,10 @@
-package model.track;
+package trackplan.model.track;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import model.Component;
-import model.ComponentGroup;
+import trackplan.model.Component;
+import trackplan.model.ComponentGroup;
 
 public class Track extends Component {
 

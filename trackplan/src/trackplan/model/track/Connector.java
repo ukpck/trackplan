@@ -1,11 +1,12 @@
 package trackplan.model.track;
 
-class Connector {
+public class Connector {
 	
 	private Connector neighbour;
-	double offX, offY, offZ,angle;
+	int offX, offY, offZ;
+	double angle;
 	
-	public Connector(double x, double y, double z, double angle) {
+	public Connector(int x, int y, int z, double angle) {
 		offX = x;
 		offY = y;
 		offZ = z;
@@ -27,5 +28,17 @@ class Connector {
 	
 	public Connector getNeighbour() {
 		return neighbour;
+	}
+
+	public int getOffX() {
+		return offX;
+	}
+
+	public int getOffY() {
+		return offY;
+	}
+
+	public int getOffZ() {
+		return offZ;
 	}
 }
